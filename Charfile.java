@@ -186,7 +186,6 @@ public class Charfile {
               for (int i=0;i<equipamientoPaladin.length ;i++ )
               System.out.println(equipamientoPaladin[i]);
         }
-          //Pantalla
           System.out.println("=======================");
     }
 }
