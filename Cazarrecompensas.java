@@ -26,7 +26,7 @@ public static void main(String[] args) {
 	impuesto2 = sueldoBruto - impuesto1;
 	impuesto3 = impuesto2 - 250;
 	impuesto4 = (impuesto3 * 17)/100;
-
+Hola k ase
 	
 }
 }
