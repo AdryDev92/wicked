@@ -11,23 +11,23 @@ public class Coc {
 		
 		
 		System.out.println("#######################################");
-		System.out.println("###  CALCULADORA DE CLASH OF CLANS  ###");
+		System.out.println("###  CALCULATOR CLASH OF CLANS  ###");
 		System.out.println("#######################################");
 		System.out.println("###                                 ###");
-		System.out.println("###  	  Calcula tus costes        ###");
-		System.out.println("###            de tropas            ###");
+		System.out.println("###  	  Calculate costs        ###");
+		System.out.println("###            of your troops            ###");
 		System.out.println("###                                 ###");
 		System.out.println("#######################################");
 		
 		
 		do{
-		System.out.println("\nElige tropa:\n");
+		System.out.println("\nChoose troop:\n");
 		for (int i = 0; i < tropas.length; i++) {
 			System.out.println(tropas[i] + " | " + costes[i]);
 			}
 		tropa = input.nextLine();
 		
-		System.out.println("\nElige cantidad:\n");
+		System.out.println("\nChoose quantity:\n");
 		cantidad = input.nextInt();
 		
 		switch (tropa) {
