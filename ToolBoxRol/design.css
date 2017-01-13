@@ -1,0 +1,16 @@
+#titulo1{
+      text-align: center;
+      color: red;
+}
+body{
+  background-color: pink;
+}
+#parr1{
+  font-family: fantasy;
+  text-align: center;
+}
+#tituloDados{
+  font-family: serif;
+  color: red;
+  font-style: italic;
+}
