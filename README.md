@@ -1,2 +1,2 @@
 # wicked
-Repositorio compartido para trabajar en proyectos de desarrollo de software (juegos, programas, utilidades, apps, etc)
+Shared repository to work in main projects like games, apps, webs; with mates and friends.
