@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Examen. Ejercicio 1</title>
+  </head>
+  <body>
+
+<script type="text/javascript">
+  function ListaCompra() {
+    var lista = document.getElementById("lista");
+    var li = document.createElement("li");
+    var elemento = document.getElementById("nuevoelemento").value;
+    var texto = document.createTextNode(elemento);
+
+    li.appendChild(texto);
+    lista.appendChild(li);
+  }
+
+  function BorrarPrimero(){
+
+    var nodoborrar = lista.getElementsByTagName("li")[0];
+    lista.removeChild(nodoborrar);
+
+  }
+</script>
+
+
+  <h2>Lista de la compra</h2>
+  <ul id="lista">
+    <li>Leche</li>
+    <li>Azucar</li>
+    <li>Pimienta</li>
+    <li>Pollo</li>
+    <li>Miel</li>
+  </ul>
+
+  <input type="text" placeholder="Nuevo Elemento" id="nuevoelemento">
+  <input type="button" id="añadir" onclick="ListaCompra();" value="Añadir elemento">
+  <input type="button" id="borrar" onclick="BorrarPrimero();" value="Borrar Primer Elemento">
+  </body>
+</html>
